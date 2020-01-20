@@ -1,5 +1,5 @@
 const GoogleSpreadsheet = require("google-spreadsheet")
-const creds = require('./client-env.json')
+const creds = require('./.env.local.json')
 
 const doc = new GoogleSpreadsheet('139IWhxAuGHyLtapmzzbVygnP-sgnz0ihLjRQtX5dSKg');
 
